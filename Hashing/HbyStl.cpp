@@ -16,12 +16,12 @@ int main() {
         mpp[arr[i]]++;
     }
 
-    //proofing
+    //proofing of the word
     for(auto it : mpp){
         cout<<it.first<<"->"<<it.second<<endl; 
     }
     
-
+    
     int q;
     cin>>q;
     while (q--)
