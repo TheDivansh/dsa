@@ -17,7 +17,7 @@ int main() {
     }
 
     //proofing of the word
-    for(auto it : mpp){1222222111111111111122222
+    for(auto it : mpp){
         cout<<it.first<<"->"<<it.second<<endl; 
     }
     
