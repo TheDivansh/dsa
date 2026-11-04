@@ -10,7 +10,8 @@ int main() {
         cin>>arr[i];
     }
     //pre - commpute
-    map<int,int>mpp;
+    // map<int,int>mpp;
+    unordered_map<int,int>mpp;
     for (int i = 0; i < n; i++)
     {
         mpp[arr[i]]++;
