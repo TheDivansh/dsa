@@ -207,6 +207,23 @@ using namespace std;
     //     printName(name2);
     //     return 0;
     // }
-    
+
+    /*
+    Take 2 numbers and print sum
+    */
+    int sum(int num1,int num2){
+        int num3 = num1+num2;
+        return num3; 
+    } 
+    int main(){
+        int num1, num2;
+        cin>>num1>>num2;
+        // int num3 = num1+num2;
+        // cout<<num3;
+        int res = sum(num1,num2);
+        cout<<res;
+
+        return 0;
+    } 
     
 
