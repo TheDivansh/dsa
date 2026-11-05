@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// ! Made multiple int main()
+// ! Made multiple int main() starts from line 174 before that single int main
 
 // int main() {
 
@@ -171,6 +171,7 @@ using namespace std;
 //     return 0;
 // }
     
+    //! Made Multiple int main starting from here 
     /*
     Functions are set of code which performs something for you
     Functions are used to modularize code
@@ -211,19 +212,125 @@ using namespace std;
     /*
     Take 2 numbers and print sum
     */
-    int sum(int num1,int num2){
-        int num3 = num1+num2;
-        return num3; 
-    } 
-    int main(){
-        int num1, num2;
-        cin>>num1>>num2;
-        // int num3 = num1+num2;
-        // cout<<num3;
-        int res = sum(num1,num2);
-        cout<<res;
+    // int sum(int num1,int num2){
+    //     int num3 = num1+num2;
+    //     return num3; 
+    // } 
+    // int main(){
+    //     int num1, num2;
+    //     cin>>num1>>num2;
+    //     // int num3 = num1+num2;
+    //     // cout<<num3;
+    //     int res = sum(num1,num2);
+    //     cout<<res;
 
-        return 0;
-    } 
+    //     return 0;
+    // } 
+
+    /*
+    Max function
+    */
+    // int maxx(int num1, int num2) {
+//     if(num1 >= num2) {
+//         return num1;
+//     }
+//     else
+//     {
+//         return num2;
+//     }
     
+//     }
+//     int main() {
+//     int num1, num2;
+//     cin >> num1 >> num2;
+//     int maximum = maxx(num1, num2);
+//     cout << maximum;
+//     return 0;
+// }
+
+    /*
+    pass by value vs reference
+    */
+    //! PASS BY VALUE
+    // void doSomething (int num) {
+    // cout << num << endl;
+    // num += 5;
+    // cout << num << endl;
+    // num += 5;
+    // cout << num << endl;
+    // }
+    // int main() {
+    // int num = 10;
+    // doSomething (num);
+    // cout << num << endl;
+    // return 0;
+    // }
+
+    // void doSomething (string s) {
+    //     s[0] = 'T';
+    //     cout<<s<<endl;
+    // }
+    // int main() {
+    // string s = "Raj";
+    // doSomething (s);
+    // cout << s << endl;
+    // return 0;
+    // }
+
+    //! Pass by Reference
+    // void doSomething (string &s) {
+    //     s[0] = 'T';
+    //     cout<<s<<endl;
+    // }
+    // int main() {
+    // string s = "Raj";
+    // doSomething (s);
+    // cout << s << endl;
+    // return 0;
+    // }
+
+    // void doSomething (int &num) {
+    // cout << num << endl;
+    // num += 5;
+    // cout << num << endl;
+    // num += 5;
+    // cout << num << endl;
+    // }
+    // int main() {
+    // int num = 10;
+    // doSomething (num);
+    // cout << num << endl;
+    // return 0;
+    // }
+
+    /*
+    Arrays Always pass through reference
+    */
+    void doSomething(int arr[],int n){
+        arr[0] += 100;
+        cout<<"Value inside function : "<<arr[0]<<endl; 
+    }
+    int main(){
+        int n =5;
+        int arr[n];
+        // cin>>arr[0]>>arr[1]>>arr[2]>>arr[3]>>arr[4];
+        //! same method
+        for (int i = 0; i <n; i++)
+        {
+            cout<<i<<endl;
+            cin>>arr[i];
+        }
+        
+
+        // cout<<arr[0]<<arr[1]<<arr[2]<<arr[3]<<arr[4];
+        //! Same method
+        // for (int i = 0; i <=4; i++)
+        // {
+        //     cout<<arr[i]<<" ";
+        // }
+        doSomething(arr,n);
+        cout<<"Value inside int main : "<<arr[0]<<endl;
+        
+        return 0;
+    }
 
