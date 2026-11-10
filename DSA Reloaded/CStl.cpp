@@ -1,28 +1,30 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// void print(){
-//     cout<<"Dev";
-// }
-// int sum(int a,int b){
-//     return a+b;
-// }
-// int main() {
-//     print();
-//     int s = sum(1,5);
-//     cout<<s;
-//     return 0;
-// }
+//! CODE NOT MADE TO BE RUN
+
+void print(){
+    cout<<"Dev";
+}
+int sum(int a,int b){
+    return a+b;
+}
+int main() {
+    print();
+    int s = sum(1,5);
+    cout<<s;
+    return 0;
+}
 
 
-// void explainPair() {
-// pair<int, int> p = {1, 3};
-// cout << p.first << " " << p.second;
-// pair<int, pair<int, int>> nestedPair = {1, {3, 4}};
-// cout << nestedPair.first << " " << nestedPair.second.second << " " << nestedPair.second.first;
-// pair<int, int> arr[] = { {1, 2}, {2, 5}, {5, 1}};
-// cout << arr[1].second;
-// }
+void explainPair() {
+pair<int, int> p = {1, 3};
+cout << p.first << " " << p.second;
+pair<int, pair<int, int>> nestedPair = {1, {3, 4}};
+cout << nestedPair.first << " " << nestedPair.second.second << " " << nestedPair.second.first;
+pair<int, int> arr[] = { {1, 2}, {2, 5}, {5, 1}};
+cout << arr[1].second;
+}
 
 
 void explainPair() {
