@@ -1,7 +1,5 @@
-0
-1
-2
-3
-4
-Value inside function : 101
-Value inside int main : 101
+555555555
+544444445
+543333345
+543222345
+543212345
