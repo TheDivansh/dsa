@@ -38,14 +38,26 @@ using namespace std;
 //     lin(1,n);
 // }
 
+//* Same output , different approach ( backtracing methodb)
+// void lin(int i,int n){
+//     if(i<1) return;
+//     lin(i-1,n);
+//     cout<<i<<" ";
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     lin(n,n);
+// }
+
 //! Print from n to 15 linearly
-void lin(int i,int n){
-    if(i<1) return;
-    cout<<i<<" ";
-    lin(i-1,n);
-}
-int main(){
-    int n;
-    cin>>n;
-    lin(n,n);
-}
+// void lin(int i,int n){
+//     if(i<1) return;
+//     cout<<i<<" ";
+//     lin(i-1,n);
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     lin(n,n);
+// }
