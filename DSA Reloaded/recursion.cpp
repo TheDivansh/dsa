@@ -38,7 +38,7 @@ using namespace std;
 //     lin(1,n);
 // }
 
-//* Same output , different approach ( backtracing methodb)
+//* Same output , different approach ( backtracing method)
 // void lin(int i,int n){
 //     if(i<1) return;
 //     lin(i-1,n);
@@ -50,7 +50,7 @@ using namespace std;
 //     lin(n,n);
 // }
 
-//! Print from n to 15 linearly
+//! Print from n to 1 linearly
 // void lin(int i,int n){
 //     if(i<1) return;
 //     cout<<i<<" ";
@@ -61,3 +61,15 @@ using namespace std;
 //     cin>>n;
 //     lin(n,n);
 // }
+
+//! Print from n to 1 linearly ( by backtracing)
+void lin(int i,int n){
+    if(i>n) return;
+    lin(i+1,n);
+    cout<<i<<" ";
+}
+int main(){
+    int n;
+    cin>>n;
+    lin(1,n);
+}
