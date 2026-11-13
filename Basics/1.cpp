@@ -10,6 +10,7 @@ void print4(int n){
         cout<<endl;
     }
 }
+// true 
 void print5(int n){
     for (int i = 1; i <=n; i++)
     {
