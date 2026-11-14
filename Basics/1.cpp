@@ -35,7 +35,7 @@ void print6(int n){
 void print7(int n){
     for (int i = 0; i <n; i++)
     {
-        //space
+        //space 
         for (int j = 0; j <n-i-1; j++)
         {
             cout<<" ";
