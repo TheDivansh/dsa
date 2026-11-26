@@ -10,7 +10,7 @@ void print4(int n){
         cout<<endl;
     }
 }
-// true 
+// true its done bro
 void print5(int n){
     for (int i = 1; i <=n; i++)
     {
